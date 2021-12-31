@@ -1,9 +1,9 @@
 {
-  "name": "Angel_Music_Bot",
+  "name": "mahsoom-audio-song",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
-   "logo": "https://telegra.ph/file/6caec29bf58337953a4b4.png",
+   "logo": "https://telegra.ph/file/a1ee9df1df15bf2e183cc.png",
    "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/SOCIAL-MECHANIC-TEAM-NRD/ANGEL-MUSIC-BOT",
+  "repository": "https://github.com/userbotmahsoom/mahsoom-audio-song",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -16,7 +16,7 @@
       "value": ""
     },
     "BOT_USERNAME": {
-      "description": "Put Bot Username Without '@' Ex:- Social_music_Bot",
+      "description": "Put Bot Username Without '@' Ex:- mahsoom_vc_singerbot",
       "required": true,
       "value": ""
     },

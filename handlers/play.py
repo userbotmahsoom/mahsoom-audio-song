@@ -77,8 +77,8 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                 await f.write(await resp.read())
                 await f.close()
 
-    image1 = Image.open("./background.png")
-    image2 = Image.open("etc/foreground.png")
+    image1 = Image.open("https://telegra.ph/file/a1ee9df1df15bf2e183cc.png")
+    image2 = Image.open("https://telegra.ph/file/a1ee9df1df15bf2e183cc.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
@@ -98,7 +98,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     )
     img.save("final.png")
     os.remove("temp.png")
-    os.remove("background.png")
+    os.remove("https://telegra.ph/file/a1ee9df1df15bf2e183cc.png")
 
 
 @Client.on_message(

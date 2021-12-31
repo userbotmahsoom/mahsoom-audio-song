@@ -6,7 +6,7 @@
 
 ### MAHSOOM BOT ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
-<p align="center"><a href="https://t.me/Tamil_FriendshipGroup"><img src="https://telegra.ph/file/https://telegra.ph/file/a1ee9df1df15bf2e183cc.png" width="300"></a></p>
+<p align="center"><a href="https://t.me/Tamil_FriendshipGroup"><img src="https://telegra.ph/file/a1ee9df1df15bf2e183cc.png" width="300"></a></p>
 
 
 

@@ -34,14 +34,13 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/326fdecd025a145566963.png",
+        photo=f"https://telegra.ph/file/a1ee9df1df15bf2e183cc.png",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
- 𝙃𝙚𝙡𝙡𝙤, 𝙄 𝘼𝙢 𝘼𝙉𝙂𝙀𝙇 𝙎𝙪𝙥𝙚𝙧 𝙁𝙖𝙨𝙩 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧
-𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 ...
+Hello, I am video chat song player
 ┏━━━━━━━━━━━━━━━━━┓
-┣★𝗖𝗵𝗮𝗻𝗻𝗲𝗹: [𝙏𝙀𝘾𝙃𝙉𝙊𝙇𝙊𝙂𝙔 𝘾𝙊𝙍𝙉𝙀𝙍](https://t.me/technology_corner_1)
-┣★𝗦𝘂𝗽𝗽𝗼𝗿𝘁: [𝙉𝘼𝘼𝙉𝙐𝙈 𝙍𝙊𝙒𝘿𝙔 𝘿𝙃𝘼𝘼𝙉](https://t.me/tamil_chat_group_1)
-┣★𝗢𝘄𝗻𝗲𝗿 : [𝙎𝙊𝘾𝙄𝘼𝙇 𝙈𝙀𝘾𝙃𝘼𝙉𝙄𝘾](https://t.me/social_mechanic_1997)
+┣★𝗖𝗵𝗮𝗻𝗻𝗲𝗹: [MAH BOT UPDATES](https://t.me/mahsoombotupdate)
+┣★𝗦𝘂𝗽𝗽𝗼𝗿𝘁: [Tamil Chatting Group | Tamil Friendship Group](https://t.me/Tamil_FriendshipGroup)
+┣★𝗢𝘄𝗻𝗲𝗿 : [Mahsoom](https://t.me/call_me_futurepilot)
 ┗━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
@@ -59,13 +58,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "Sumit"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/326fdecd025a145566963.png",
+        photo=f"https://telegra.ph/file/a1ee9df1df15bf2e183cc.png",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚡𝗦𝘂𝗽𝗽𝗼𝗿𝘁⚡", url=f"https://t.me/tamil_chat_group_1")
+                        "⚡𝗦𝘂𝗽𝗽𝗼𝗿𝘁⚡", url=f"https://t.me/Tamil_FriendshipGroup")
                 ]
             ]
         ),
@@ -75,13 +74,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["Angel", "Group", "@Channel", "/Channel", "Channel"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/326fdecd025a145566963.png",
+        photo=f"https://telegra.ph/file/a1ee9df1df15bf2e183cc.png",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡", url=f"https://t.me/technology_corner_1")
+                        "⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡", url=f"https://t.me/mahsoombotupdate")
                 ]
                 
             ]

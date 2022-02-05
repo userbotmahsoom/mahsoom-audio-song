@@ -34,20 +34,20 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/a1ee9df1df15bf2e183cc.png",
+        photo=f"https://telegra.ph/file/e485a1d51cf862ce6dfe6.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 Hello, I am video chat song player
 ┏━━━━━━━━━━━━━━━━━┓
-┣★𝗖𝗵𝗮𝗻𝗻𝗲𝗹: [MAH BOT UPDATES](https://t.me/mahsoombotupdate)
-┣★𝗦𝘂𝗽𝗽𝗼𝗿𝘁: [Tamil Chatting Group | Tamil Friendship Group](https://t.me/Tamil_FriendshipGroup)
-┣★𝗢𝘄𝗻𝗲𝗿 : [Mahsoom](https://t.me/call_me_futurepilot)
+‎┣★القناة : [MAH BOT UPDATES](https://t.me/PP77Y)
+‎┣★قروبنا: [Tamil Chatting Group | Tamil Friendship Group](https://t.me/TTET6)
+┣★𝗢𝘄𝗻𝗲𝗿 : [𓆩˹𝒌𝒏𝒈˼𓆪ツمسطول](https://t.me/N_4_8)
 ┗━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚡ ❰ 𝗔𝗱𝗱 𝗠𝗲 𝗜𝗻 𝗚𝗿𝗼𝘂𝗽 ❱ ⚡", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+‎                        "⚡ ❰عليك فقط اضافتي في المجموعة او الشات🤍 ❱ ⚡", url=f"https://t.me/TTET6")
                 ]
                 
            ]
@@ -64,7 +64,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⚡𝗦𝘂𝗽𝗽𝗼𝗿𝘁⚡", url=f"https://t.me/Tamil_FriendshipGroup")
+‎                        "⚡قروبنا⚡", url=f"https://t.me/TTET6")
                 ]
             ]
         ),
@@ -74,13 +74,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["Angel", "Group", "@Channel", "/Channel", "Channel"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/a1ee9df1df15bf2e183cc.png",
+        photo=f"https://telegra.ph/file/e485a1d51cf862ce6dfe6.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡", url=f"https://t.me/mahsoombotupdate")
+‎                        "⚡القناة⚡", url=f"https://t.me/PP77Y")
                 ]
                 
             ]
